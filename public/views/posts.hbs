@@ -1,0 +1,10 @@
+{{>header}}
+  <ol class="post">
+    {{#each data}}
+      <li
+        <div class="post__title">{{ this.title }}</div>
+        <div class="post__body">{{ this.body }}</div>
+      </li>
+    {{/each}}
+  </ol>
+{{>footer}}

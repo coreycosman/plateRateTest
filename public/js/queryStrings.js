@@ -8,7 +8,7 @@ if (search === "?=%22description%22") {
   }
   else if (search === "?=%22tech%22") {
     $.get('/aboutme/tech')
-      .then(data => $("tech").replaceWith(data))
+      .then(data => $(".tech").replaceWith(data))
       .then(() => $("#btn-2").hide())
       .catch(e => console.log(e))
 

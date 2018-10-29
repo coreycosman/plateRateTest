@@ -1,5 +1,5 @@
 const path = require('path');
-const views = path.join(__dirname, '../../public/views')
+const views = path.join(__dirname, '../../public/views');
 const bodyParser = require('body-parser');
 const axios = require('axios');
 

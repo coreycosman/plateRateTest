@@ -1,9 +1,13 @@
 // IMPORTS:
+const rootController = require('./controllers/root-controller');
 const postsController = require('./controllers/posts-controller');
 const aboutsController = require('./controllers/abouts-controller');
 
 // ROUTER:
 module.exports = (app) => {
+  // root
+  app.get('/', rootController.root)
+  app.get('/test', rootController.test)
   // posts controller routes
   app.get('/posts', postsController.posts)
   // abouts controller routes

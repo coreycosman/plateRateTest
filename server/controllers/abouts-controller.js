@@ -18,7 +18,6 @@ exports.all = (req, res, next) => {
     "What are your favorite hobbies?":
       "I am interested in all areas of software programming/engineering as well as electrical engineering via electronic hardware design. I am in the process of learning to build my own electronic audio hardware circuits. I am also learning to build software to interface with Raspberry Pi/Arduino hardware for audio/visual applications via Java. I am interested in DSP and am learning the basics of sound design with JavaScript and eventually want to learn how to use C++ for DSP. I am also interested in blockchain technology and am in the process of building my first blockchain and smart contract with Python (though I would like to eventually move to Golang/Rust for this)."
   });
-
   res.send(all);
 };
 

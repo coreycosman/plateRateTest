@@ -1,5 +1,8 @@
 const search = window.location.search.toString();
 
+if (window.location.pathname === "/aboutme") {
+  window.location.replace("/aboutme/all");
+}
 if (search === "?=%22description%22") {
   window.location.replace("/aboutme/description");
 } else if (search === "?=%22tech%22") {
